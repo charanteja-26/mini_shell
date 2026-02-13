@@ -75,12 +75,5 @@ Examples:
 - External commands:
   - `ls -la`
   - `sleep 10` then press `Ctrl-C` to send SIGINT to the child
-  - `sleep 10` then press `Ctrl-Z` to send SIGTSTP to the child
-
- 
-- Pipelining and redirection
-- Background jobs and job list
-- Tab completion
-
-Enjoy!
+  - `sleep 10` then press `Ctrl-Z` to send SIGTSTP to the  child
 
