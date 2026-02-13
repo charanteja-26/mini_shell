@@ -77,37 +77,10 @@ Examples:
   - `sleep 10` then press `Ctrl-C` to send SIGINT to the child
   - `sleep 10` then press `Ctrl-Z` to send SIGTSTP to the child
 
-Adding to GitHub
-----------------
-
-1. Initialize a repository (if you haven't):
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: add msh mini-shell"
-```
-
-2. Create a repo on GitHub and add it as a remote, then push:
-
-```powershell
-git remote add origin https://github.com/yourusername/your-repo.git
-git branch -M main
-git push -u origin main
-```
-
-License
--------
-
-You can add a license file if you want (e.g., MIT) before pushing.
-
-Contact / Improvements
-----------------------
-
-This is an educational project. Improvements you might add:
-- Command history and readline support
+ 
 - Pipelining and redirection
 - Background jobs and job list
 - Tab completion
 
 Enjoy!
+
